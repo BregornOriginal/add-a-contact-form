@@ -380,7 +380,7 @@ footer {
   border: none;
   background-color: #fbf8f7;
   margin-top: 24px;
-  width: -webkit-fill-available;
+  width: 80%;
   height: 114px;
 }
 
@@ -399,11 +399,6 @@ footer {
   background-color: #ff6b00;
   color: white;
   border: none;
-}
-
-.button-submit:hover {
-  background-color: #fff5e1;
-  color: #ff6b00;
 }
 
 .button-submit:active {
