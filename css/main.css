@@ -325,3 +325,125 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+footer {
+  margin: 120px 0 0 0;
+}
+
+.contact {
+  padding: 0 24px;
+}
+
+.description-contact {
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 0 0 73px 0;
+  color: #172b4d;
+}
+
+.contact-inputs {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+#full-name {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-width: 1px;
+  width: 100%;
+}
+
+#email-address {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-width: 1px;
+  margin-top: 39px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.contact-inputs .small-validation {
+  background-color: #172b4d;
+  color: white;
+  padding: 5px 10px;
+}
+
+#text-area {
+  border: none;
+  background-color: #fbf8f7;
+  margin-top: 24px;
+  width: 80%;
+  height: 114px;
+}
+
+.container-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 24px 0 124px 0;
+}
+
+.button-submit {
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  height: 48px;
+  width: 131px;
+  background-color: #3700ff;
+  color: white;
+  border: none;
+}
+
+.button-submit:hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
+}
+
+.button-submit:active {
+  background-color: #e05304;
+  color: #e5e5e5;
+}
+
+.button-submit:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
+.top-line-social-icons {
+  width: 100%;
+  background: #dfe1e6;
+  height: 1px;
+  margin: 0;
+}
+
+.container-icons-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social-icons-footer:hover {
+  width: 50px;
+  filter: brightness(2);
+}
+
+.container-line-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 23px 0 8px 0;
+}
+
+.bottom-line-social-icons {
+  height: 5px;
+  width: 134px;
+  border-radius: 10px;
+  background: #0d151e;
+}
