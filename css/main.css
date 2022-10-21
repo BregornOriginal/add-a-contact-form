@@ -396,9 +396,14 @@ footer {
   font-weight: 600;
   height: 48px;
   width: 131px;
-  background-color: #ff6b00;
+  background-color: #3700ff;
   color: white;
   border: none;
+}
+
+.button-submit:hover {
+  background-color: #fff5e1;
+  color: #ff6b00;
 }
 
 .button-submit:active {
